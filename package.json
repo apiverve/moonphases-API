@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/moonphases",
+  "version": "1.0.0",
+  "description": "Moon Phases is a simple tool for getting the moon phases. It returns the moon phase for a given date.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/moonphases-API.git"
+  },
+  "keywords": [
+    "moon phases"," moon phases api"," moon phases tool"," moon phases software"," moon phases service"," moon phases library"," moon phases sdk"," moon phases code"," moon phases script"," moon phases program"," moon phases application"," moon phases app"," moon phases utility"," moon phases helper"," moon phases helper tool"," moon phases helper software"," moon phases helper service"," moon phases helper library"," moon phases helper sdk"," moon phases helper code"," moon phases helper script"," moon phases helper program"," moon phases helper application"," moon phases helper app"," moon phases helper utility"," moon phases helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/moonphases-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/moonphases-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
