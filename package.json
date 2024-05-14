@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/moonphases-API.git"
   },
   "keywords": [
-    "moon phases"," moon phases api"," moon phases tool"," moon phases software"," moon phases service"," moon phases library"," moon phases sdk"," moon phases code"," moon phases script"," moon phases program"," moon phases application"," moon phases app"," moon phases utility"," moon phases helper"," moon phases helper tool"," moon phases helper software"," moon phases helper service"," moon phases helper library"," moon phases helper sdk"," moon phases helper code"," moon phases helper script"," moon phases helper program"," moon phases helper application"," moon phases helper app"," moon phases helper utility"," moon phases helper"
+    "moon phases","moon phases api","moon phases tool","moon phases software","moon phases service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
