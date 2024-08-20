@@ -73,13 +73,14 @@ api.execute(function (error, data) {
     "phaseEmoji": "🌔",
     "waxing": true,
     "waning": false,
-    "lunarAge": 11.631925154626766,
-    "lunarAgePercent": 0.39389413006358609,
-    "lunationNumber": 1256,
-    "lunarDistance": 60.524038551213266,
-    "nextFullMoon": "2024-08-17T00:00:00Z",
-    "lastFullMoon": "2024-06-18T00:00:00Z"
-  }
+    "lunarAge": 10.101337448867854,
+    "lunarAgePercent": 0.34206354270753536,
+    "lunationNumber": 1257,
+    "lunarDistance": 60.470251812190213,
+    "nextFullMoon": "2024-09-14T00:00:00Z",
+    "lastFullMoon": "2024-07-16T00:00:00Z"
+  },
+  "code": 200
 }
 ```
 
