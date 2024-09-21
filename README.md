@@ -47,13 +47,15 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-This API does not require a Query
+var query = {
+  today: true
+};
 ```
 
 ###### Simple Request (using Callback)
 
 ```
-api.execute(function (error, data) {
+api.execute(query, function (error, data) {
     if (error) {
         return console.error(error);
     } else {
@@ -69,16 +71,16 @@ api.execute(function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "phase": "Waxing Gibbous",
-    "phaseEmoji": "🌔",
-    "waxing": true,
-    "waning": false,
-    "lunarAge": 10.101337448867854,
-    "lunarAgePercent": 0.34206354270753536,
-    "lunationNumber": 1257,
-    "lunarDistance": 60.470251812190213,
-    "nextFullMoon": "2024-09-14T00:00:00Z",
-    "lastFullMoon": "2024-07-16T00:00:00Z"
+    "phase": "New",
+    "phaseEmoji": "🌑",
+    "waxing": false,
+    "waning": true,
+    "lunarAge": 28.101337448866754,
+    "lunarAgePercent": 0.951601022264299,
+    "lunationNumber": 1258,
+    "lunarDistance": 63.013342336394949,
+    "nextFullMoon": "2024-10-02T00:00:00Z",
+    "lastFullMoon": "2024-08-03T00:00:00Z"
   },
   "code": 200
 }
