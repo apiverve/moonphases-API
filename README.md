@@ -71,16 +71,16 @@ api.execute(query, function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "phase": "New",
-    "phaseEmoji": "🌑",
+    "phase": "Last Quarter",
+    "phaseEmoji": "🌗",
     "waxing": false,
     "waning": true,
-    "lunarAge": 28.101337448866754,
-    "lunarAgePercent": 0.951601022264299,
-    "lunationNumber": 1258,
-    "lunarDistance": 63.013342336394949,
-    "nextFullMoon": "2024-10-02T00:00:00Z",
-    "lastFullMoon": "2024-08-03T00:00:00Z"
+    "lunarAge": 22.917811214307449,
+    "lunarAgePercent": 0.77607027136264151,
+    "lunationNumber": 1264,
+    "lunarDistance": 62.683756716101321,
+    "nextFullMoon": "2025-03-23T00:00:00Z",
+    "lastFullMoon": "2025-01-22T00:00:00Z"
   },
   "code": 200
 }
@@ -108,7 +108,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
