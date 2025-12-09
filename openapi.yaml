@@ -1,0 +1,74 @@
+openapi: 3.0.4
+info:
+  title: Moon Phases
+  description: Moon Phases is a simple tool for getting the moon phases. It returns the moon phase for a given date.
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.9
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+- url: https://api.apiverve.com/
+paths:
+  /v1/moonphases:
+    get:
+      summary: Get Moon Phase for a date
+      description: Moon Phases is a simple tool for getting the moon phases. It returns the moon phase for a given date.
+      operationId: moonphases
+      parameters:
+      - name: date
+        in: query
+        schema:
+          type: string
+        required: false
+        description: 'The date for which you want to get the moon phase (e.g., MM-DD-YYYY : 01-01-2022)'
+        example: 12-03-2025
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: string
+                    description: data
+              example:
+                status: ok
+                error: 
+                data:
+                  phase: Last Quarter
+                  phaseEmoji: "\U0001F317"
+                  waxing: false
+                  waning: true
+                  lunarAge: 22.9178112143074
+                  lunarAgePercent: 0.776070271362642
+                  lunationNumber: 1264
+                  lunarDistance: 62.6837567161013
+                  nextFullMoon: 2025-03-23T00:00:00.0000000Z
+                  lastFullMoon: 2025-01-22T00:00:00.0000000Z
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occured, try again later
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+- api_key: []
